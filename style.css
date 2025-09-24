@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+body{
+	font-family: "Newsreader", serif;
+}
+
+/*font scale*/
+:root{--size-sm: clamp(0.83rem, 0.02vi + 0.83rem, 0.84rem);
+--size-base: clamp(1rem, 0.23vi + 0.94rem, 1.13rem);
+--size-md: clamp(1.2rem, 0.54vi + 1.06rem, 1.5rem);
+--size-lg: clamp(1.44rem, 1.02vi + 1.19rem, 2rem);
+--size-xl: clamp(1.73rem, 1.7vi + 1.3rem, 2.66rem);
+--size-xxl: clamp(2.07rem, 2.69vi + 1.4rem, 3.55rem);
+--size-xxxl: clamp(2.49rem, 4.08vi + 1.47rem, 4.73rem);}
+
+h1{font-size: var(--size-xxxl);}
+
+p{ line-height:1.4; }
+p{ letter-spacing:0.02em}
+h1{ letter-spacing: -0.01em}
+
+/*Color*/
+: :root {
+	--jazz-bleu: hsl(239, 82%, 32%); 
+}
+
+body{ background-color: var(--jazz-bleu);}
